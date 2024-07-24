@@ -13,6 +13,8 @@ module.exports = {
         'purple': '#721EFF',
         'white': '#FFFFFF',
         transparent: 'transparent',
+        'bg-hero':'radial-gradient(28.9% 28.9% at 50% 67.59%, #FFFFFF 0%, #A5B5FF 24.34%, #4263FF 88%)',
+        
       },
     },
 };

@@ -16,7 +16,7 @@ export default function RootLayout({ children }) {
       <body className="bg-blue">{children}
         <header className="space-y-10">
           <div className="bg-green text-purple flex gap-4 justify-center py-2 align-middle">
-            <h3 className="text-sm">Assine agora através do nosso whatsapp   <span className="px-4 font-bold text-md  align-middle">|</span>   31 3333.3333</h3>
+            <h3 className="text-sm">Assine agora através do nosso whatsapp   <span className="px-4 font-bold text-md  align-middle">|</span>   31 3157.2844</h3>
           </div>
             <nav className="flex items-center justify-center gap-32">
               <div>
@@ -42,7 +42,6 @@ export default function RootLayout({ children }) {
                   <Link href="/">Faq</Link>
                 </li>
               </ul>
-
               <button>
                 <Link className="bg-green rounded-xl py-3 px-8 font-bold text-blue border-2 border-green
               hover:bg-blue hover:text-white hover:border-2 transition ease" href="/">Assine agora</Link>
