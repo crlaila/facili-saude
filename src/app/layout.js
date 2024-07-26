@@ -3,6 +3,8 @@ import "@/app/styles/globals.css";
 import Link from 'next/link';
 import Image from "next/image";
 
+import Hero from "@/app/components/hero";
+
 const poppins = Poppins({
   display: "swap",
   weight: ["400", "700"],
@@ -48,6 +50,8 @@ export default function RootLayout({ children }) {
               </button>
             </nav>
         </header>
+
+        <Hero />
       </body>
     </html>
   );
