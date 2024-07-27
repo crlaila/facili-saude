@@ -7,7 +7,7 @@ export default function Hero() {
       flex justify-center items-center mx-auto pt-20">
       Inovando os cuidados da saúde</h1>
       <p className="text-green font-bold text-center">Simples. Essencial. Digital.</p>
-      <Image src="/img-hero.png" alt="Hero" width={988} height={1000} className="mx-auto pt-16"/>
+      <Image src="/img-hero.png" alt="Simples. Essencial. Digital." width={988} height={1000} className="mx-auto pt-16"/>
     </div>
   )
 }
