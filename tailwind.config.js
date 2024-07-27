@@ -16,6 +16,16 @@ module.exports = {
         'bg-hero':'radial-gradient(28.9% 28.9% at 50% 67.59%, #FFFFFF 0%, #A5B5FF 24.34%, #4263FF 88%)',
         
       },
-    },
-    
+      screens: {
+        sm: '480px',
+        md: '768px',
+        lg: '976px',
+        xl: '1440px',
+      },
+      extend: {
+        fontSize: {
+          'sub': '35px',
+        },
+      },
+    },  
 };
