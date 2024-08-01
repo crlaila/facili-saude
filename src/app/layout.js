@@ -5,6 +5,7 @@ import Image from "next/image";
 
 import Hero from "@/app/components/hero";
 import How from "@/app/components/how";
+import Benefits from "@/app/components/benefits";
 
 const poppins = Poppins({
   display: "swap",
@@ -53,6 +54,7 @@ export default function RootLayout({ children }) {
         </header>
         <Hero />
         <How />
+        <Benefits />
       </body>
     </html>
   );
